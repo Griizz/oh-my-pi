@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixed the bash card expanding a script file the command ran (e.g. an npm global bin shim on Windows) into "built at runtime · not in the command text" frames; the invocation row now stands for it ([#19627](https://github.com/can1357/oh-my-pi/issues/19627))
+
 ## [18.22.2] - 2026-11-18
 
 ### Added
